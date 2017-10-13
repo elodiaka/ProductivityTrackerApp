@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:padding="1dp"
     tools:context="com.example.sumiofmidnite.androidauthoritytutorial.MainActivity">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="587dp"
+        android:layout_width="344dp"
+        android:layout_height="495dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
         <TextView
             android:id="@+id/Greeting"
@@ -52,7 +53,7 @@
             tools:layout_editor_absoluteY="123dp" />
 
         <LinearLayout
-            android:layout_width="395dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
@@ -113,24 +114,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/buttonGo"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:elevation="0dp"
                 android:onClick="onButtonTap"
                 android:text="@string/stringGoProductive"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="324dp" />
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="337dp" />
 
             <Button
                 android:id="@+id/buttonReset"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:elevation="0dp"
                 android:onClick="onButtonTap"
                 android:text="@string/stringReset"
@@ -147,7 +146,7 @@
             tools:layout_editor_absoluteY="437dp" />
 
         <EditText
-            android:id="@+id/Projectname"
+            android:id="@+id/ShowProjectname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -156,6 +155,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -165,7 +165,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/WBIWork"
+                    android:id="@+id/WBIWorkShow"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.04"
@@ -190,7 +190,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/WBIBreak"
+                    android:id="@+id/WBIBreakShow"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.01"

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Productivity Tracker</string>
+
+    <string name="stringGreeting">Guten Tag!</string>
+    <string name="stringProject">Woran möchtest du jetzt arbeiten?</string>
+    <string name="stringWorkBreakInterval">Lege deinen Arbeits-Pausen-Intervall in Minuten fest:</string>
+    <string name="stringGoProductive">Frohes Schaffen!</string>
+    <string name="stringWBIWork">Arbeitsdauer:</string>
+    <string name="stringWBIBreak">Pausendauer:</string>
+    <string name="stringReset">Zurücksetzen</string>
+    <string name="stringTask">Deine Vorgabe:</string>
+</resources>

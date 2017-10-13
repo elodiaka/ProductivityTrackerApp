@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Productivity Tracker</string>
+    <string name="app_name">ProductivityTracker</string>
 
     <string name="stringGreeting">Guten Tag!</string>
     <string name="stringProject">Woran möchtest du jetzt arbeiten?</string>
